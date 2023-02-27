@@ -1,0 +1,64 @@
+.logo {
+  text-align: center;
+  padding: 10px;
+}
+.gnb ul{
+  display: flex;
+  justify-content: center;
+  background: #327fe4;
+}
+.gnb ul li a{
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+.gnb ul li a.active{
+  color: #ff0;
+  text-decoration: underline;
+}
+
+/* Login //////////////////////// */
+.page{
+  text-align: center;
+}
+.cont_wrap{
+  border: 1px solid #000;
+  width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.inTitle{
+  margin-top: 20px;
+}
+.input{
+  height: 30px;
+  padding: 0 5px;
+}
+.errMassage{
+  font-size: 14px;
+  color: #f00;
+}
+
+/* counter //////////////////////*/
+.counter_wrap{
+  display: flex;
+}
+.counter_wrap button{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.counter_wrap span{
+  width: 50px;
+  background: #ddd;
+  text-align: center;
+  font-size: 20px;
+}
+.foot_wrap{
+  text-align: center;
+  background: #ddd;
+  padding: 20px 10px;
+  margin-top: 30px;
+}
+
