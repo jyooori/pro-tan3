@@ -19,7 +19,7 @@ function App() {
         <Route path="/input" element={<Input />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
-
+    {/* footer component */}
       <Footer />
     </div>
   );
