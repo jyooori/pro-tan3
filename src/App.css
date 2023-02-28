@@ -17,6 +17,29 @@
   text-decoration: underline;
 }
 
+/* Home slide */
+.row_c{
+  width: 1200px;
+  margin: 0 auto;
+}
+.slide_info{
+  display: flex;
+  justify-content: space-between;
+}
+.slide_academy{
+  width: 69.58%;
+}
+.info{
+  width: 27.16%;
+  background: #327fe4;
+}
+.slide_academy .swiper-slide img{
+  width: 100%;
+}
+
+
+
+
 /* Login //////////////////////// */
 .page{
   text-align: center;
@@ -38,6 +61,13 @@
   font-size: 14px;
   color: #f00;
 }
+
+/* product ///////////////////// */
+
+
+
+
+
 
 /* counter //////////////////////*/
 .counter_wrap{
